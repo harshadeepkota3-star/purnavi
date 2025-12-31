@@ -26,7 +26,7 @@ const ContactArea = () => {
                                         <div>
                                             <h4 className="tp-contact-content-title" style={{ fontSize: '16px', marginBottom: '5px' }}>For Staffing Requirements:</h4>
                                             <h3 className="tp-contact-item-title"><a href="mailto:asish@social.auctus.com">asish@social.auctus.com</a></h3>
-                                            <h3 className="tp-contact-item-title"><a href="tel:9381736309">+91 9381736309</a></h3>
+                                            <h3 className="tp-contact-item-title"><a href="tel:9032916136">+91 9032916136</a></h3>
                                         </div>
                                     </div>
 
@@ -39,7 +39,7 @@ const ContactArea = () => {
                                         <div>
                                             <h4 className="tp-contact-content-title" style={{ fontSize: '16px', marginBottom: '5px' }}>For Development Projects:</h4>
                                             <h3 className="tp-contact-item-title"><a href="mailto:asish@social.auctus.com">asish@social.auctus.com</a></h3>
-                                            <h3 className="tp-contact-item-title"><a href="tel:9381736309">+91 9381736309</a></h3>
+                                            <h3 className="tp-contact-item-title"><a href="tel:9032916136">+91 9032916136</a></h3>
                                         </div>
                                     </div>
 

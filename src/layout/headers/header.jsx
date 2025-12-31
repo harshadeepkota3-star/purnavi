@@ -80,7 +80,7 @@ const HeaderOne = () => {
                      <div className="col-xxl-6 col-xl-4">
                         <div className="tp-header-top-right d-flex justify-content-end align-items-center">
                            <div className="header-call">
-                              <a href="tel:+919381736309"><i className="fa-solid fa-phone"></i> +91 9381736309</a>
+                              <a href="tel:+919381736309"><i className="fa-solid fa-phone"></i>+91 9032916136</a>
                            </div>
                            <div className="header-social d-xxl-block d-none">
                               <Link href="#"><i className="fa-brands fa-facebook"></i> Facebook</Link>

@@ -50,7 +50,7 @@ const ContactPopup = ({ isOpen, setIsOpen }) => {
                             </div>
                             <div className="contact-popup-info">
                                 <span className="contact-popup-label">WhatsApp</span>
-                                <span className="contact-popup-value">+91 9381736309</span>
+                                <span className="contact-popup-value">+91 9032916136</span>
                             </div>
                             <div className="contact-popup-arrow">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +71,7 @@ const ContactPopup = ({ isOpen, setIsOpen }) => {
                             </div>
                             <div className="contact-popup-info">
                                 <span className="contact-popup-label">Phone</span>
-                                <span className="contact-popup-value">+91 9381736309</span>
+                                <span className="contact-popup-value">+91 9032916136</span>
                             </div>
                             <div className="contact-popup-arrow">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

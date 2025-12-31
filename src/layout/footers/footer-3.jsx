@@ -11,7 +11,7 @@ const footer_contact = {
     map_link: "https://maps.app.goo.gl/VpeUVQdM8ttsFSKY6",
     address: <>Hyderabad, Telangana<br /> India</>,
     mail: "asish@social.auctus.com",
-    phone: "+91 9381736309",
+    phone: "+91 9032916136",
 }
 const { bg_img, footer_info, map_link, address, mail, phone } = footer_contact
 

@@ -46,7 +46,7 @@ const CtaBanner = () => {
                                             </div>
                                             <div className="tp-cta-banner-contact-info">
                                                 <span>Phone</span>
-                                                <a href="tel:+919381736309">+91 9381736309</a>
+                                                <a href="tel:+919032916136">+91 9032916136</a>
                                             </div>
                                         </div>
                                         <div className="tp-cta-banner-contact-item">
