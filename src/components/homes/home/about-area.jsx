@@ -162,7 +162,7 @@ const AboutArea = () => {
                                     <div className="tp-about-call">
                                         <a href="tel:+919381736309">
                                             <p><i className="fa-solid fa-phone"></i>
-                                                Full-stack IT services for businesses worldwide <span>+91 9381736309</span></p>
+                                                Full-stack IT services for businesses worldwide <span>+91 9032916136</span></p>
                                         </a>
                                     </div>
 
