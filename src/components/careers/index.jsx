@@ -103,26 +103,48 @@ const Careers = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
+        setSubmitMessage('');
 
-        // Simulate form submission
-        setTimeout(() => {
-            setIsSubmitting(false);
-            setSubmitMessage('Thank you for registering! Our team will review your profile and get back to you soon.');
-            setFormData({
-                fullName: '',
-                email: '',
-                phone: '',
-                experience: '',
-                currentLocation: '',
-                preferredLocation: '',
-                noticePeriod: '',
-                currentCTC: '',
-                expectedCTC: '',
-                skills: '',
-                linkedIn: '',
-                resume: null
+        const submitData = new FormData();
+        Object.keys(formData).forEach(key => {
+            if (formData[key] !== null && formData[key] !== undefined) {
+                submitData.append(key, formData[key]);
+            }
+        });
+
+        try {
+            const response = await fetch('/api/register', {
+                method: 'POST',
+                body: submitData
             });
-        }, 1500);
+
+            if (response.ok) {
+                setSubmitMessage('Thank you for registering! Our team will review your profile and get back to you soon.');
+                setFormData({
+                    fullName: '',
+                    email: '',
+                    phone: '',
+                    experience: '',
+                    currentLocation: '',
+                    preferredLocation: '',
+                    noticePeriod: '',
+                    currentCTC: '',
+                    expectedCTC: '',
+                    skills: '',
+                    linkedIn: '',
+                    resume: null
+                });
+                e.target.reset();
+            } else {
+                const data = await response.json();
+                setSubmitMessage(`Error: ${data.message || 'Something went wrong'}`);
+            }
+        } catch (error) {
+            console.error(error);
+            setSubmitMessage(`Error: ${error.message || 'Network error occurred'}`);
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (

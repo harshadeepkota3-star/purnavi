@@ -10,7 +10,7 @@ const footer_contact = {
     footer_info: <>Purnavi IT Solutions Pvt. Ltd. - Delivering high-quality IT solutions, project-based development, and specialized workforce hiring for businesses worldwide.</>,
     map_link: "https://maps.app.goo.gl/VpeUVQdM8ttsFSKY6",
     address: <>Hyderabad, Telangana<br /> India</>,
-    mail: "asish@social.auctus.com",
+    mail: "info@purnaviitsolutions.com",
     phone: "+91 9032916136",
 }
 const { bg_img, footer_info, map_link, address, mail, phone } = footer_contact

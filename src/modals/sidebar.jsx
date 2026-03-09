@@ -66,7 +66,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                                     <i className="fa-solid fa-envelope"></i>
                                 </div>
                                 <div className="offcanvas__contact-content-content">
-                                    <a href="mailto:asish@social.auctus.com">asish@social.auctus.com</a>
+                                    <a href="mailto:info@purnaviitsolutions.com">info@purnaviitsolutions.com</a>
                                 </div>
                             </div>
                             <div className="offcanvas__contact-content d-flex">

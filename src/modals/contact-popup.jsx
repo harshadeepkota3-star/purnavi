@@ -82,7 +82,7 @@ const ContactPopup = ({ isOpen, setIsOpen }) => {
 
                         {/* Email */}
                         <a
-                            href="mailto:asish@social.auctus.com"
+                            href="mailto:info@purnaviitsolutions.com"
                             className="contact-popup-item email"
                         >
                             <div className="contact-popup-icon email-bg">
@@ -93,7 +93,7 @@ const ContactPopup = ({ isOpen, setIsOpen }) => {
                             </div>
                             <div className="contact-popup-info">
                                 <span className="contact-popup-label">Email</span>
-                                <span className="contact-popup-value">asish@social.auctus.com</span>
+                                <span className="contact-popup-value">info@purnaviitsolutions.com</span>
                             </div>
                             <div className="contact-popup-arrow">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

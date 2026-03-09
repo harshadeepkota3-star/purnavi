@@ -55,7 +55,7 @@ const CtaBanner = () => {
                                             </div>
                                             <div className="tp-cta-banner-contact-info">
                                                 <span>Email</span>
-                                                <a href="mailto:asish@social.auctus.com">asish@social.auctus.com</a>
+                                                <a href="mailto:info@purnaviitsolutions.com">info@purnaviitsolutions.com</a>
                                             </div>
                                         </div>
                                     </div>

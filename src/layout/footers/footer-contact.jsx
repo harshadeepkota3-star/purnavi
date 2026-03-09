@@ -20,7 +20,7 @@ const FooterContact = ({ bg_style, contact_style }) => {
                                 <Image className="shape-1" src={footer_contact_shape_2} alt="theme-pure" />
                                 <div className="tp-cta-4-mail d-flex flex-wrap justify-content-center justify-content-xl-start align-items-center">
                                     <Image src={conversation} alt="theme-pure" />
-                                    <a href="mailto:asish@social.auctus.com">Contact us at <span>asish@social</span></a>
+                                    <a href="mailto:info@purnaviitsolutions.com">Contact us at <span>info@purnaviitsolutions.com</span></a>
                                 </div>
                             </div>
                         </div>

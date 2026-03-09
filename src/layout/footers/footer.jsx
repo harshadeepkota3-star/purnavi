@@ -8,15 +8,15 @@ import EmailAeroplan from '@/src/svg/email-aeroplan';
 import SocialLinks, { CopyRight } from '@/src/common/social-links';
 
 const footer_content = {
-    contact_us: <>Contact us at <span>asish@social.auctus.com </span></>,
-    mail: "asish@social.auctus.com",
+    contact_us: <>Contact us at <span>info@purnaviitsolutions.com </span></>,
+    mail: "info@purnaviitsolutions.com",
     contact_text: "Full-Stack IT Solutions & Workforce Hiring",
     phone: "+91 9032916136",
     info: <>Purnavi IT Solutions Pvt. Ltd. - Delivering high-quality IT solutions, project-based development, and specialized workforce hiring for businesses worldwide.</>,
     map: "https://www.google.com/maps/place/Hyderabad,+Telangana/@17.406498,78.47987,11z",
     address: <>Hyderabad, Telangana <br /> India</>,
-    mail_2: "asish@social.auctus.com",
-    mail_phone: <>asish@social.auctus.com <br /> +91 9032916136</>,
+    mail_2: "info@purnaviitsolutions.com",
+    mail_phone: <>info@purnaviitsolutions.com <br /> +91 9032916136</>,
 
 
     service_links: [

@@ -52,8 +52,8 @@ const HeaderOne = () => {
                                     </span>Hyderabad, Telangana, India</a>
                               </li>
                               <li>
-                                 <a href="mailto:asish@social.auctus.com"><span>
-                                    <i className="fa-solid fa-envelope"></i></span>asish@social.auctus.com
+                                 <a href="mailto:info@purnaviitsolutions.com"><span>
+                                    <i className="fa-solid fa-envelope"></i></span>info@purnaviitsolutions.com
                                  </a>
                               </li>
                               <li>
