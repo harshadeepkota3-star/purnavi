@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  // output: 'export', // Commented out because static exports do not support backend API routes like /api/contact
+  output: 'export',
   images: {
     unoptimized: true,
   },
